@@ -28,7 +28,7 @@ Requirements
 
 - Python 3.7+
 - Required Python packages:
-  pip install pandas openpyxl
+  `pip install pandas openpyxl`
 
 Email Setup
 -----------
@@ -39,6 +39,7 @@ To enable email notifications, you'll need to:
 2. Enable App Passwords in your Google account (if 2FA is on)
 3. Update the following variables in the script:
 
+```python
 EMAIL_ADDRESS = 'your_email@gmail.com'
 EMAIL_PASSWORD = 'your_app_password'
 SUPERVISOR_EMAIL = 'supervisor_email@example.com'
