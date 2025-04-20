@@ -45,11 +45,7 @@ EMAIL_PASSWORD = 'your_app_password'
 SUPERVISOR_EMAIL = 'supervisor_email@example.com'
 HR_EMAIL = 'hr_email@example.com'
 
-
-
 How to Run
-----------
-
 1. Open a terminal or command prompt.
 2. Navigate to the project directory.
 3. Run the script:
@@ -58,7 +54,6 @@ How to Run
 Follow the on-screen prompts to simulate the full HR leave workflow.
 
 Notes
------
 - The script automatically creates or updates Leave_Request_Log.xlsx in the same directory.
 - There might be some latency with email delivery.
 - All decisions (Supervisor and HR) are manually entered for demo purposes.
