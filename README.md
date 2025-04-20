@@ -1,4 +1,3 @@
-
 HR Leave Request Automation System
 ==================================
 
@@ -8,10 +7,9 @@ Project Structure
 -----------------
 
 leave-request-automation/
-│
 ├── leave_request_automation.py       # Main Python script
 ├── Leave_Request_Log.xlsx            # Excel log file (created/updated by script)
-├── README.md                        # Instructions and documentation
+└── README.md                         # Instructions and documentation
 
 Automation Workflow
 -------------------
