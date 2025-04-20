@@ -45,6 +45,8 @@ EMAIL_PASSWORD = 'your_app_password'
 SUPERVISOR_EMAIL = 'supervisor_email@example.com'
 HR_EMAIL = 'hr_email@example.com'
 
+
+
 How to Run
 ----------
 
