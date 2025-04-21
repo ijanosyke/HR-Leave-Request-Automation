@@ -151,7 +151,7 @@ Leave Management System
         leave_log.loc[leave_log['Request_ID'] == new_id, 'HR_Approval'] = 'Approved'
         leave_log.loc[leave_log['Request_ID'] == new_id, 'Status'] = 'Approved'
         send_email(row['Email'], "Your Leave Request Approved",
-                   f"Dear {row['Employee_Name']},\n\nYour leave request from {row['Start_Date']} to {row['End_Date']} has been approved by both Supervisor and HR.\n\nEnjoy your time off!\n\nBest regards,\nLeave Management System")
+                   f"Dear {row['Employee_Name']},\n\nYour leave request from {row['Start_Date']} to {row['End_Date']} has been approved by both Supervisor and HR.\n\n\n\nRegards,\nLeave Management System")
         print("HR approved the request. Employee notified.")
     else:
         leave_log.loc[leave_log['Request_ID'] == new_id, 'HR_Approval'] = 'Rejected'
